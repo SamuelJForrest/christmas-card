@@ -1,0 +1,28 @@
+.form {
+	background: var(--white);
+	border-radius: 0.4rem;
+	padding: 2.4rem;
+}
+
+.form .field-wrap {
+	margin-bottom: 1.2rem;
+	width: 100%;
+}
+
+.form .field-wrap .label-wrap label {
+	margin-bottom: 0.4rem;
+	font-weight: 500;
+	display: block;
+}
+
+.form .field-wrap .input-wrap {
+	display: flex;
+}
+
+.form .field-wrap .input-wrap input,
+.form .field-wrap .input-wrap textarea {
+	max-width: 100%;
+	padding: 0.8rem 1.2rem;
+	font-size: 1.6rem;
+	width: 100%;
+}

@@ -1,0 +1,7 @@
+.card {
+	background: var(--blue-dark-opacity);
+	padding: 3.2rem;
+	border-radius: 0.8rem;
+	position: relative;
+	z-index: 10;
+}
