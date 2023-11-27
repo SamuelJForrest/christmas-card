@@ -9,7 +9,8 @@
 	width: 100%;
 }
 
-.form .field-wrap .label-wrap label {
+.form .field-wrap .label-wrap label,
+.form .field-wrap .label-wrap legend {
 	margin-bottom: 0.4rem;
 	font-weight: 500;
 	display: block;

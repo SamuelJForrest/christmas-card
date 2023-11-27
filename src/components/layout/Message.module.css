@@ -1,0 +1,24 @@
+.message p {
+	color: var(--white);
+	font-size: 2.8rem;
+	line-height: 1.333;
+}
+
+.message p + p {
+	margin-top: 1.6rem;
+}
+
+.message a {
+	margin-top: 1.6rem;
+}
+
+.message a:hover,
+.message a:focus {
+	color: var(--white);
+}
+
+.message-buttons {
+	margin-top: 2.4rem;
+	display: flex;
+	gap: 1.6rem;
+}

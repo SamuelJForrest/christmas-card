@@ -4,6 +4,7 @@
 	--blue-mid: #4698ae;
 	--blue-dark: #37476c;
 	--blue-dark-opacity: rgba(55, 71, 108, 0.8);
+	--black: #1c1c1c;
 	--white: #fcfcfc;
 }
 
@@ -29,6 +30,31 @@ h1 {
 	letter-spacing: 1px;
 	font-size: 3.2rem;
 	margin-bottom: 1.6rem;
+}
+
+.subtitle {
+	color: var(--white);
+	margin-bottom: 1.6rem;
+	opacity: 0.8;
+}
+
+.button {
+	cursor: pointer;
+	border: 2px solid var(--blue-mid);
+	border-radius: 0.4rem;
+	background: var(--blue-mid);
+	color: var(--white);
+	font-size: 1.6rem;
+	padding: 1rem 1.6rem;
+	text-decoration: none;
+	display: inline-block;
+	transition: all 0.3s;
+}
+
+.button:hover,
+.button:focus {
+	color: var(--black);
+	background: none;
 }
 
 .snowfall {
